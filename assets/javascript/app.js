@@ -39,13 +39,11 @@ $('#Done').on('click', function () {
 	createArrayOfUserAnswers();
 			compareArray();
 			showScoreboard();
-	
-			
 			$('.triviaScreen').css({
 				'display': 'none'
-	
+			});
+	return;
 });
-	)}
 
 // TIMER FUNCTION
 
@@ -156,4 +154,4 @@ $('.restartBtn').on('click', function () {
 				"display": "none"
 		});
 
-)}
+})
