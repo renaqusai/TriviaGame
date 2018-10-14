@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+
+  
+
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <!--   Main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+<header></header>
+
+
+  <!-- Overall Grid -->
+  <div class="container">
+
+    <div id = "title" class="row blue">
+      
+      <div class="col-md-12">
+        <h1>Trivia Game</h1>
+      </div>
+    
+    </div> <!-- end  title row -->
+
+    <div class="mainContainer row">
+
+      <div class="col-md-12">
+        <div class="row aqua starterScreen">
+          <button type="button" class="btn btn-default startBtn">Start</button>
+        </div> <!-- end starterScreen -->
+
+        <div class="row pink timerScreen">
+        </div> <!-- end timerScreen -->
+
+        <div class="row green triviaScreen">
+          
+          <div class="question1"><h3>What is a group of Tigers called?</h3>
+          
+            <form class="question1Form">
+              <div class="radio">
+                <label><input class="radioSelect1" type="radio" name="question1" value="Heard">Heard</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect1" type="radio" name="question1" value="Fever">Fever</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect1" type="radio" name="question1" value="Ambush">Ambush</label>
+              </div>
+            </form>
+          </div> <!-- end question1 div -->
+
+          <div class="question2"><h3>What is a group of Wombats called?</h3>
+          
+            <form class="question2Form">
+              <div class="radio">
+                <label><input class="radioSelect2" type="radio" name="question2" value="Wisdom">Wisdom</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect2" type="radio" name="question2" value="Pod">Pod</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect2" type="radio" name="question2" value="Hover">Hover</label>
+              </div>
+            </form>
+          </div> <!-- end question1 div -->
+
+           <div class="question3"><h3>What is a group of Rhinos called?</h3>
+          
+            <form class="question3Form">
+              <div class="radio">
+                <label><input class="radioSelect3" type="radio" name="question3" value="Herd">Herd</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect3" type="radio" name="question3" value="Crash">Crash</label>
+              </div>
+              <div class="radio">
+                <label><input class="radioSelect3" type="radio" name="question3" value="Pride">Pride</label>
+              </div>
+            </form>
+          </div> <!-- end question1 div -->
+          
+     
+        <!-- <button type="button" class="btn btn-default btnA">Submit Answers</button> --> 
+        <div>
+          <button type="button" class="btn btn-default doneBtn">Done</button>
+        </div>
+        
+        </div> <!-- end triviaScreen -->
+      
+        <div class="row yellow endScreen">
+            <h3 class="scoreBoard"></h3>
+          <button type="button" class="btn btn-default restartBtn">Restart</button>
+          
+        </div> <!-- end endScreen -->
+    </div><!--  end col-md-12 for mainContainer -->
+
+
+    </div> <!-- end mainContainer -->
+  </div><!--  end of container -->
+
+
+</body>
+<!--   javascript -->
+  <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js" type="text/javascript"></script>
+  <!-- <script type="text/javascript" src="assets/javascript/game2.js" type="text/javascript"></script>
+ -->
+</html>

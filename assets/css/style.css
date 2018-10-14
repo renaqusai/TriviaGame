@@ -1,0 +1,49 @@
+body {
+	
+	background-color: #8db3d8;
+}
+
+h1 {
+	text-align: center;
+color: rgb(194, 192, 221);}
+
+p {font-size: 24px;
+	text-align: left;
+	}
+
+.pink {
+	background-color: rgb(125, 165, 202);
+	}
+
+.green {
+	background-color: rgb(142, 100, 197);
+}
+
+.blue {
+	background-color: #001f3f;
+}
+
+.yellow {
+	background-color: rgb(0, 153, 255);
+}
+
+.aqua {
+	background-color: #0074D9;
+}
+
+.triviaScreen, .endScreen, .timerScreen {
+	display: none;
+	padding: 0px 0px 30px 30px;
+} 
+
+.starterScreen {
+	padding: 30px 0px 30px 30px;
+}
+
+.timerScreen {
+	text-align: center;
+}
+
+.radio {
+	font-size: 16px;
+}
