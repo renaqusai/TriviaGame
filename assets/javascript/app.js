@@ -39,6 +39,8 @@ $('#Done').on('click', function () {
 	createArrayOfUserAnswers();
 			compareArray();
 			showScoreboard();
+	$('.triviaScreen').css({
+				'display': 'none'
 	return;
 });
 
