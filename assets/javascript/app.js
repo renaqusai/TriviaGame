@@ -35,7 +35,7 @@ startBtnTimer();
 		countDown();
 	});
 }
-$('.donetBtn').on('click', function () {
+$('#Done').on('click', function () {
 	createArrayOfUserAnswers();
 			compareArray();
 			showScoreboard();
