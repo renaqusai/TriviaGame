@@ -45,6 +45,7 @@ $('#Done').on('click', function () {
 				'display': 'none'
 	
 });
+	)}
 
 // TIMER FUNCTION
 
@@ -155,4 +156,4 @@ $('.restartBtn').on('click', function () {
 				"display": "none"
 		});
 
-
+)}
