@@ -39,7 +39,7 @@ $('#Done').on('click', function () {
 	createArrayOfUserAnswers();
 			compareArray();
 			showScoreboard();
-	$(".timerScreen").html('<h2> Time is up!</h2>');
+	
 			
 			$('.triviaScreen').css({
 				'display': 'none'
