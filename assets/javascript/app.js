@@ -155,4 +155,4 @@ $('.restartBtn').on('click', function () {
 				"display": "none"
 		});
 
-})
+
