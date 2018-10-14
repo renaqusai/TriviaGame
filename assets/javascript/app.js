@@ -35,7 +35,7 @@ startBtnTimer();
 		countDown();
 	});
 }
-('#Done').on('click', function () {
+$('#Done').on('click', function () {
 	n=0;
 	createArrayOfUserAnswers();
 			compareArray();
@@ -43,7 +43,7 @@ startBtnTimer();
 			$('.triviaScreen').css({
 				'display': 'none'
 			});
-$(".timerScreen").html('<h2> Time is up!</h2>');
+						$(".timerScreen").html('<h2> Time is up!</h2>');
 
 	return;
 });
