@@ -44,21 +44,21 @@ $(document).ready(function() {
 		unansweredTally++;
 		gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/x.png'>";
 		$(".mainArea").html(gameHTML);
-		setTimeout(wait, 2000);  //  change to 4000 or other amount
+		setTimeout(wait, 3000);  //  change to 3000 or other amount
 	}
 	
 	function generateWin() {
 		correctTally++;
 		gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter] + "</p>" + imageArray[questionCounter];
 		$(".mainArea").html(gameHTML);
-		setTimeout(wait, 2000);  //  change to 4000 or other amount
+		setTimeout(wait, 3000);  //  change to 3000 or other amount
 	}
 	
 	function generateLoss() {
 		incorrectTally++;
 		gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/x.png'>";
 		$(".mainArea").html(gameHTML);
-		setTimeout(wait, 2000); //  change to 4000 or other amount
+		setTimeout(wait, 3000); //  change to 3000 or other amount
 	}
 	
 	function generateHTML() {
