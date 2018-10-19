@@ -1,49 +1,53 @@
+
+
+/* Qusai Amer */
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-button-container {
+  margin-top: 200px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: rgb(192, 204, 255);
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  color: white;
+  padding-left: 14px;
+  background-color: rgb(11, 126, 155);
+  border-radius: 4px;
+}
+
+.img-wrong {
+  margin-top: 40px;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.reset-button {
+  margin-top: 40px;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
+
 body {
-	
-	background-color: #8db3d8;
-}
-
-h1 {
-	text-align: center;
-color: rgb(194, 192, 221);}
-
-p {font-size: 24px;
-	text-align: left;
-	}
-
-.pink {
-	background-color: rgb(125, 165, 202);
-	}
-
-.green {
-	background-color: rgb(142, 100, 197);
-}
-
-.blue {
-	background-color: #001f3f;
-}
-
-.yellow {
-	background-color: rgb(0, 153, 255);
-}
-
-.aqua {
-	background-color: #0074D9;
-}
-
-.triviaScreen, .endScreen, .timerScreen {
-	display: none;
-	padding: 0px 0px 30px 30px;
-} 
-
-.starterScreen {
-	padding: 30px 0px 30px 30px;
-}
-
-.timerScreen {
-	text-align: center;
-}
-
-.radio {
-	font-size: 16px;
+  background-color: rgb(19, 47, 80);
+  color: white;
 }
